@@ -190,3 +190,77 @@ a {
     justify-content: center;
     column-gap: 10px;
 }
+
+#latest-deal {
+    padding: 100px 0;
+
+}
+
+#latest-deal .deal-img {
+    background-image: url(../img/Rectangle\ 9.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+    padding: 150px 0;
+    border-radius: 5px;
+}
+
+.deal-img h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deal-img p {
+    color: rgba(39, 39, 39, 0.6);
+}
+.deal-img form{
+    margin-top: 25px;
+}
+.deal-img .f-name{
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 50%;
+    font-size: 18px;
+}
+.deal-img .f-name:focus-visible{
+    outline: #E55473!important;
+    border: 2px solid #e554736e;
+}
+.deal-img button{
+    padding: 20px 50px;
+    background-color: #E55473;
+    color: #fff;
+    border: 1px solid #E55473;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+footer {
+    padding: 100px 0;
+    background-color: #111010;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+footer p {
+    margin: 20px 0;
+    padding: 0 30%;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+footer h6 {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+}
